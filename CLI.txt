@@ -1,0 +1,21 @@
+(venv) D:\60_learning\05_pluralsight\pluralsight_python\organizing-larger-programs\demo_file_reader>pip install demo-file-reader
+Collecting demo-file-reader
+  Downloading demo_file_reader-1.0.0-py3-none-any.whl (3.5 kB)
+Installing collected packages: demo-file-reader
+Successfully installed demo-file-reader-1.0.0
+
+(venv) D:\60_learning\05_pluralsight\pluralsight_python\organizing-larger-programs\demo_file_reader>python
+Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import demo-file-reader
+  File "<stdin>", line 1
+    import demo-file-reader
+               ^
+SyntaxError: invalid syntax
+>>> import demo_file_reader
+__init__.py executed...
+>>> demo_file_reader.__file__
+'D:\\60_learning\\05_pluralsight\\pluralsight_python\\organizing-larger-programs\\venv\\lib\\site-packages\\demo_file_reader\\__init__.py'
+>>> demo_file_reader.__path__
+['D:\\60_learning\\05_pluralsight\\pluralsight_python\\organizing-larger-programs\\venv\\lib\\site-packages\\demo_file_reader']
+>
