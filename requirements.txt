@@ -1,0 +1,4 @@
+# -- PYTHON PACKAGE REQUIREMENTS:
+# USE: pip install -r <THIS_FILE>
+
+nox >= 2023.04.22
